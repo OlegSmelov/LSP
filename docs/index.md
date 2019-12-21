@@ -70,7 +70,7 @@ If you use a virtualenv for your current project, add a path to it in your [proj
                 "env": {
                     // example path, adjust it for your use case
                     // it needs to be an absolute path, neither $HOME nor ~ work here
-                    "PYTHONPATH": "/Users/mike/.virtualenvs/my-virtual-env/lib/python3.7/site-packages"
+                    "VIRTUAL_ENV": "/Users/mike/.virtualenvs/my-virtual-env"
                 }
             }
         }
